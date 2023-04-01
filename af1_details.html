@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSoles</title>
+    <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;500&family=Poppins&display=swap"
+  rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/products_details.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+    <div id="hero">
+        <header>
+          <a href="#"><img class="logo" src="./img/GSoles.png"></a>
+          <nav>
+            <ul class="nav">
+              <div class="nav__links">
+                <a href="index.html" class="nav__item ">
+                  <li class="nav__item--underline">Home</li>
+                </a>
+                <a href="products.html" class="nav__item">
+                  <li>Products</li>
+                </a>
+                <a href="#contact" class="nav__item">
+                  <li>About</li>
+                </a>
+                <a href="contact.php" class="nav__item">
+                  <li>Contact</li>
+                </a>
+                <a href="login_form.php" class="nav__item">
+                  <li><i class="fas fa-user"></i></li>
+                </a>
+                <button href="#" class="nav__item nav__item--cart">
+                  <li><i class="fas fa-shopping-cart"></i></li> 
+                </button>
+                <a onclick="checker()" href="index.html" class="nav__item">
+                  <li>Logout</li>
+                </a>
+              </div>
+
+              <div class="burger nav__item">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+              </div>
+            </ul> 
+          </nav>
+        </header>
+        <section id="hero-text">
+          <h2 class="hero-text__heading"></h2>
+        </section>
+      </div>
+  <!-- End of Nav Bar-->
+      
+        <section class="featured-products-wrapper">
+          <div class="featured-products animate-right">
+            <img src="./img/air_force_1-removebg-preview.png" alt="Air Force 1">
+            <h4>Air Force 1 EMB</h4>
+            <p>The radiance lives on with the b-ball original. Crossing hardwood comfort with off-court flair,<br> it puts a fresh spin on what you know best: era-echoing, '80s construction, bold details and <br>
+              nothin'-but-net style.
+            </p><br>
+            <h3>Benefits</h3>
+              <ul>
+                <li>From tough stitching to pristine leather to the cupsole design, it delivers durable style <br>that's smoother than backboard glass.</li>
+                <li>Originally designed for performance hoops, the Air cushioning delivers lasting comfort.</li>
+                <li>Low-cut, padded collar looks sleek and feels great.</li>
+              </ul><br>
+            <h3>Product Details</h3>
+              <ul>
+                <li>Different Swoosh logo colours</li>
+                <li>Extra laces</li>
+                <li>Hoops inspired graphic on sockliner</li>
+                <li>Colour Shown: White/Pearl White/White/Malachite</li>
+                <li>Style: DM0109-100</li>
+                <li>Country/Region of Origin: Vietnam</li>
+              </ul><br>
+            <button class="add-to-cart-featured cartBtn"><a href="products.html">Back to Products</a></button>
+        </section>
+    
+      <!-- Cart -->
+    <section class="checkout-cart-wrapper">
+      <div class="checkout-cart">
+        <button class="close-cart"><i class="fas fa-times"></i></button>
+        <h6 class="special-items__heading">Checkout Cart</h6>
+        <div class="cart-products-wrapper">
+        </div>
+        <div class="buy-wrapper">
+          <p class="cost-wrapper">Total: $<span id="total-cost">0</span></p><button class="buy-button">Buy</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of cart -->
+  </main>
+  <!-- Footer -->
+    <footer>
+    <div class="company-info">
+      <h5>About</h5>
+      <p class="address">The CEO of GoodSoles (known in the market as GSoles), <br> Tyer Leinster G. Mercado, has established 
+         this <br> business because of his love for quality shoes. <br> He has been fond of buying and collecting good shoes.<br></p>
+      <p class="me">Develop by Tyer Leinster G. Mercado & copy 2022 GSoles, Inc.</p>
+    </div>
+    <div class="contact" id="contact">
+      <h5>Contacts</h5>
+      <div class="contact-links">
+        <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter icon"></i></a>
+        <a href="#" title="Github" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram icon"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- JS Link -->
+  <script src="./js/script.js"></script>
+  <script src="./js/modal.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</body>
+
+</html>

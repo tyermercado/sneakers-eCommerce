@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;500&family=Poppins&display=swap"
+  rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSoles</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation Bar-->
+  <div id="hero">
+    <header>
+      <a href="#"><img class="logo" src="./img/GSoles.png"></a>
+      <nav>
+        <ul class="nav">
+          <div class="nav__links">
+            <a href="#main-container" class="nav__item ">
+              <li class="nav__item--underline">Home</li>
+            </a>
+            <a href="products.php" class="nav__item">
+              <li>Products</li>
+            </a>
+            <a href="#contact" class="nav__item">
+              <li>About</li>
+            </a>
+            <a href="contact.php" class="nav__item">
+              <li>Contact</li>
+            </a>
+            <a href="login_choices.html" class="nav__item">
+              <li><i class="fas fa-user"></i></li>
+            </a>
+            <a href="order_summary.html" class="nav__item">
+              <li><i class="fas fa-shopping-cart"></i></li> 
+            </a>
+
+          </div>
+
+          <div class="burger nav__item">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </ul> 
+      </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="hero-text">
+      <h2 class="hero-text__heading"></h2>
+      <p class="hero-text__tagline">"Give your feet the beauty treatment that only brand new shoes can give."</p>
+    </section>
+  </div>
+    <section class="featured-products-wrapper">
+      <div class="featured-products animate-right">
+        <img src="./img/aj_mid.png" alt="Air Jordan High">
+        <h4>Air Jordan High</h4>
+        <p>The Air Jordan 1 High debuted in 1985 as the first signature sneaker developed by Nike for Michael Jordan. <br> 
+          The Peter Moore designed performance basketball sneaker featured a simple Nike Dunk inspired design that <br> 
+          incorporated the Nike Swoosh and the Jordan Wings logo <br> and featured Nike Air.
+        </p>
+        <button class="add-to-cart-featured cartBtn"><a href="products_user.html">Shop Now</a></button>
+    </section>
+    <!-- End of Home Page -->
+
+    <!-- Our Quality Services -->
+    <section class="qs animate-bottom">
+      <h3 class="shoess__heading qs__heading">Our Quality Services</h3>
+      <div class="qs__reasons-wrapper">
+        <div class="qs__reasons">
+          <img src="./img/pickup.svg" alt="" loading="lazy">
+          <p>Safe Delivery</p>
+        </div>
+        <div class="qs__reasons">
+          <img src="./img/box.svg" alt="" loading="lazy">
+          <p>Professional packaging</p>
+        </div>
+        <div class="qs__reasons">
+          <img src="./img/timer.svg" alt="" loading="lazy">
+          <p>Right on time</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Quality Services -->
+
+    <!-- Check out wrapper -->
+    <section class="checkout-cart-wrapper">
+      <div class="checkout-cart">
+        <button class="close-cart"><i class="fas fa-times"></i></button>
+        <h6 class="shoess__heading">Checkout Cart</h6>
+        <div class="cart-products-wrapper">
+        </div>
+        <div class="buy-wrapper">
+          <p class="cost-wrapper">Total: $<span id="total-cost">0</span></p><button class="buy-button">Buy</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of check out wrapper -->
+    
+  </main>
+  <footer>
+    <div class="company-info">
+      <h5>About</h5>
+      <p class="address">The CEO of GoodSoles (known in the market as GSoles), <br> Tyer Leinster G. Mercado, has established 
+         this <br> business because of his love for quality shoes. <br> He has been fond of buying and collecting good shoes.<br></p>
+      <p class="me">Develop by Tyer Leinster G. Mercado & copy 2022 GSoles, Inc.</p>
+    </div>
+    <div class="contact" id="contact">
+      <h5>Contact</h5>
+      <div class="contact-links">
+        <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter icon"></i></a>
+        <a href="#" title="Github" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="#" title="Instagram" target="_blank"><i
+            class="fab fa-instagram icon"></i></a>
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- JS Link -->
+  <script src="./js/script.js"></script>
+   <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSoles</title>
+    <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Herr+Von+Muellerhoff&family=Montserrat:wght@400;500&family=Poppins&display=swap"
+  rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/product_user.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+    <div id="hero">
+        <header>
+          <a href="#"><img class="logo" src="./img/GSoles.png"></a>
+          <nav>
+            <ul class="nav">
+              <div class="nav__links">
+                <a href="index.html" class="nav__item ">
+                  <li class="nav__item--underline">Home</li>
+                </a>
+                <a href="#featured-products-wrapper" class="nav__item">
+                  <li>Products</li>
+                </a>
+                <a href="#contact" class="nav__item">
+                  <li>About</li>
+                </a>
+                <a href="contact.php" class="nav__item">
+                  <li>Contact</li>
+                </a>
+                <a href="login_choices.html" class="nav__item">
+                  <li><i class="fas fa-user"></i></li>
+                </a>
+                <a href="#" class="nav__item nav__item--cart">
+                  <li><i class="fas fa-shopping-cart"></i></li> 
+                </a>
+                <a onclick="checker()" href="index.html" class="nav__item">
+                  <li>Logout</li>
+                </a>
+              </div>
+              <div class="burger nav__item">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+              </div>
+            </ul> 
+          </nav>
+        </header>
+        <section id="hero-text">
+          <h2 class="hero-text__heading"></h2>
+        </section>
+      </div>
+  <!-- End of Nav Bar-->
+
+      <!-- Featured Shoes -->
+        <section class="featured-products-wrapper">
+          <div class="featured-products animate-right">
+            <img src="./img/jordan1-removebg-preview.png" alt="Air Jordan 1">
+            <h4>Air Jordan 1 Low Craft</h4>
+            <p>The Air Jordan 1 Low is a lifestyle sneaker from Brand Jordan, a subsidiary of NIKE, Inc. Debuted in 1985, the model has <br> 
+              historically served as a casual take on Michael Jordan's first signature sneaker, the high-top Jordan 1.
+            </p>
+            <button class="add-to-cart-featured cartBtn"><a href="#items">Shop Now</a></button>
+        </section>
+
+      <!-- End of Featured Shoes -->
+
+         <!-- All Shoes-->
+     <section class="shoes animate-left" id="items">
+      <h3 class="shoes__heading" id="allshoes">All Products</h3>
+      <div class="shoes__products-grid">
+        <div class="shoes__products">
+          <img src="./img/air_force_1-removebg-preview.png" alt="Air Force 1 EMB" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Air Force 1 EMB</h4>
+            <p class="shoes__product-cat">Unisex</p>
+            <p class="shoes__product-size">Size: 10</p>
+            <p class="shoes__product-price">$150.99</p>
+            <button class="add-to-cart"><a href="af1_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="Air Force 1 EMB" data-cat="Unisex" data-price="150.99" data-size="Size: 10"
+              data-img="./img/air_force_1-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products">
+          <img src="./img/blazer_low-removebg-preview.png" alt="Blazer Low Jumbo" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Blazer Low</h4>
+            <p class="shoes__product-cat">Unisex</p>
+            <p class="shoes__product-size">Size: 9.5</p>
+            <p class="shoes__product-price">$110.99</p>
+            <button class="add-to-cart"><a href="bl_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="Blazer Low" data-cat="Unisex" data-price="110.99" data-size="Size: 9.5"
+              data-img="./img/blazer_low-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products">
+          <img src="./img/kyrie_infinity-removebg-preview.png" alt="Kyrie Infinity" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Kyrie Infinity</h4>
+            <p class="shoes__product-cat">Men</p>
+            <p class="shoes__product-size">Size: 10.5</p>
+            <p class="shoes__product-price">$126.99</p>
+            <button class="add-to-cart"><a href="ki_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="Kyrie_Infinity" data-cat="Men" data-price="126.99" data-size="Size: 10.5" data-img="./img/kyrie_infinity-removebg-preview.png"
+            data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+
+        <div class="shoes__products">
+          <img src="./img/kd15-removebg-preview.png" alt="KD 15" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">KD 15</h4>
+            <p class="shoes__product-cat">Men</p>
+            <p class="shoes__product-size">Size: 8.5</p>
+            <p class="shoes__product-price">$144.99</p>
+            <button class="add-to-cart"><a href="kd15_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="KD 15" data-cat="Men" data-price="144.99" data-size="Size: 8.5"
+            data-img="./img/kd15-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products">
+          <img src="./img/air_jordan_5-removebg-preview.png" alt="AJ 5" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Air Jordan 5 Low </h4>
+            <p class="shoes__product-cat">Men</p>
+            <p class="shoes__product-size">Size: 9</p>
+            <p class="shoes__product-price">$250.99</p>
+            <button class="add-to-cart"><a href="aj5_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="Air Jordan 5 Retro Low" data-cat="Men" data-price="149.99" data-size="Size: 9"
+            data-img="./img/air_jordan_5-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products" id="AJ1">
+          <img src="./img/jordan1-removebg-preview.png" alt="AJ 1" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Air Jordan 1 Low </h4>
+            <p class="shoes__product-cat">Women</p>
+            <p class="shoes__product-size">Size: 7</p>
+            <p class="shoes__product-price">$200.99</p>
+            <button class="add-to-cart"><a href="aj1_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="Air Jordan 1 Low" data-cat="Women" data-price="149.99" data-size="Size: 11"
+              data-img="./img/jordan1-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products">
+          <img src="./img/sb_dunk_low-removebg-preview.png" alt="SB Dunk Low" loading="lazy">
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">SB Dunk Low</h4>
+            <p class="shoes__product-cat">Women</p>
+            <p class="shoes__product-size">Size: 9</p>
+            <p class="shoes__product-price">$180.99</p>
+            <button class="add-to-cart"><a href="sbdl_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="SB Dunk Low" data-cat="Women" data-price="149.99" data-size="Size: 10.5"
+              data-img="./img/sb_dunk_low-removebg-preview.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+        <div class="shoes__products">
+          <img src="./img/aj_mid.png" alt="Air Jordan 1 Mid" loading="lazy"> 
+          <div class="shoes__content-details">
+            <h4 class="shoes__product-name">Air Jordan 1 Mid</h4>
+            <p class="shoes__product-cat">Men</p>
+            <p class="shoes__product-size">Size: 10.5</p>
+            <p class="shoes__product-price">$200.99</p>
+            <button class="add-to-cart"><a href="ajmid1_details.html">View Details</a></button>
+            <button class="add-to-cart cartBtn" data-title="SB Dunk Low" data-cat="Men" data-price="149.99" data-size="Size: 10.5"
+              data-img="./img/aj_mid.png" data-quantity=1>Add to cart</button>
+          </div>
+        </div>
+     </section>
+    <!-- End of All Shoes-->
+    
+      <!-- Cart -->
+    <section class="checkout-cart-wrapper">
+      <div class="checkout-cart">
+        <button class="close-cart"><i class="fas fa-times"></i></button>
+        <h6 class="shoes__heading">Checkout Cart</h6>
+        <div class="cart-products-wrapper"> 
+        </div>
+        <div class="buy-wrapper">
+          <p class="cost-wrapper">Total: $<span id="total-cost">0</span></p><button class="buy-button">Place Order</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of cart -->
+  </main>
+  <!-- Footer -->
+    <footer>
+    <div class="company-info">
+      <h5>About</h5>
+      <p class="address">The CEO of GoodSoles (known in the market as GSoles), <br> Tyer Leinster G. Mercado, has established 
+         this <br> business because of his love for quality shoes. <br> He has been fond of buying and collecting good shoes.<br></p>
+      <p class="me">Develop by Tyer Leinster G. Mercado & copy 2022 GSoles, Inc.</p>
+    </div>
+    <div class="contact" id="contact">
+      <h5>Contact</h5>
+      <div class="contact-links">
+        <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter icon"></i></a>
+        <a href="#" title="Github" target="_blank"><i class="fab fa-github icon"></i></a>
+        <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram icon"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- JS Link -->
+  <script src="./js/cart.js"></script>
+  <script src="./js/logout.js"></script>
+    <!-- Font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</body>
+
+</html>
