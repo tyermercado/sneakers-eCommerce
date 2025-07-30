@@ -33,3 +33,4 @@ A simple **eCommerce website** for selling sneakers, developed using **PHP** as 
 ## 📸 Screenshots
 
 ## 🏠 Landing Page
+[https://github.com/tyermercado/sneakers-eCommerce/blob/master/Tyer%20Mercado(2).png]
