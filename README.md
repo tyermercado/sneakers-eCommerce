@@ -30,3 +30,8 @@ A simple **eCommerce website** for selling sneakers, developed using **PHP** as 
 - **Tools:** XAMPP / WAMP, phpMyAdmin
 
 ---
+
+## 📸 Screenshots
+
+## 🏠 Landing Page
+
